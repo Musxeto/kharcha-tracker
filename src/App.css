@@ -9,6 +9,8 @@
 }
 
 body {
+  background-image: url('https://as2.ftcdn.net/v2/jpg/03/98/29/93/1000_F_398299362_pedAQ0CyLZivN5bW9aJpogWaqkQoT4e9.jpg');
+  background-position: cover;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
