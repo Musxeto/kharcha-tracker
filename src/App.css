@@ -10,7 +10,7 @@
 
 body {
   background-image: url('https://previews.123rf.com/images/mvelishchuk/mvelishchuk1909/mvelishchuk190900230/130066664-hundred-dollar-bill-falling-money-isolated-background-american.jpg?fj=1');
-  background-position: fixed;
+background-position: fixed;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
@@ -20,6 +20,7 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
+  background-size: cover; /* or background-size: 100% 100%; */
   background-repeat: no-repeat;
 }
 .main{
