@@ -9,8 +9,8 @@
 }
 
 body {
-  background-image: url('https://as2.ftcdn.net/v2/jpg/03/98/29/93/1000_F_398299362_pedAQ0CyLZivN5bW9aJpogWaqkQoT4e9.jpg');
-  background-position: cover;
+  background-image: url('https://previews.123rf.com/images/mvelishchuk/mvelishchuk1909/mvelishchuk190900230/130066664-hundred-dollar-bill-falling-money-isolated-background-american.jpg?fj=1');
+  background-position: fixed;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
@@ -20,11 +20,33 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
+  background-repeat: no-repeat;
+}
+.main{
+  background-color: #c1dfcd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding-top: 23px;
 }
 
 .container {
   margin: 30px auto;
   width: 400px;
+}
+
+.title{
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  margin: 0;
 }
 
 h1 {
